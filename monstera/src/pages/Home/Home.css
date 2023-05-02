@@ -9,9 +9,10 @@
     width: 600px;
     height: 600px;
     display: flex;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8rem;
+    margin-top: 5rem;
     -webkit-transition: 0.4s;
 }
   
@@ -21,3 +22,10 @@
   transition: 0.4s;
 }
 
+p {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+}

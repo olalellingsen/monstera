@@ -1,6 +1,18 @@
 .about {
     border-top: solid 1px var(--bgColor);
-    margin: 0;
     height: 100vh;
-    background-image: linear-gradient(to bottom right, #7104d9,#fa00c7, #121212);
+    background-image: linear-gradient(to bottom, #121212, #7104d9);
+
+    display: flex;
 }    
+
+.about img {
+    height: 40rem
+}
+
+.bio {
+    color: aliceblue;
+    margin: 3rem 0 0 5rem;
+    font-style: italic;
+    height: 15rem;
+}
