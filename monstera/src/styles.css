@@ -1,3 +1,35 @@
+:root {
+  --primaryColor: rgba(255,0,182,255);
+  --bgColor: rgba(18,18,18,255);
+}
+
 body {
-    background-color: rgba(18,18,18,255)
-  }
+  padding: 0;
+  height: 95rem;
+  background-image: linear-gradient(to bottom right, var(--primaryColor), var(--bgColor));
+}
+
+.albumCover a{
+  width: 600px;
+  height: 600px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  -webkit-transition: 0.4s;
+}
+
+.albumCover a:hover {
+  scale: 1.02;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.spotifyPlayer {
+  margin-top: 10rem;
+  width: 600px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+}

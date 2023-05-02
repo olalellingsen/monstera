@@ -17,17 +17,15 @@ const SpotifyPlayer: React.FC<Props> = ({ albumName }) => {
   }, [albumName]);
 
   return (
-    <>
-      {spotifyUri && (
-        <iframe
-          src={`https://open.spotify.com/embed/album/${spotifyUri.split(':')[2]}`}
-          width="100%"
-          height="380"
-        //   frameBorder="0"
-          allow="encrypted-media"
-        />
-      )}
-    </>
+    <div className="spotifyPlayer">
+      <iframe
+      src="https://open.spotify.com/embed/album/5a1tmom7nDFlkpfMT6u2V0?utm_source=generator&theme=0" 
+      width="100%" height="600" frameBorder="0" 
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+      loading="lazy">
+      </iframe>
+    </div>
+
   );
 };
 
