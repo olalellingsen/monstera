@@ -1,18 +1,30 @@
 .about {
     border-top: solid 1px var(--bgColor);
-    height: 100vh;
+    height: 130vh;
     background-image: linear-gradient(to bottom, #121212, #7104d9);
 
     display: flex;
 }    
 
-.about img {
-    height: 40rem
+.left-container img, 
+.right-container img,
+.bio {
+    height: 35rem;
 }
+
+.right-container, .left-container{
+    padding: 0 5rem 0 0;
+}
+
 
 .bio {
     color: aliceblue;
-    margin: 3rem 0 0 5rem;
-    font-style: italic;
-    height: 15rem;
+    width: 90%;
 }
+
+
+.spotifyPlayer {
+    width: 100%;
+    margin: 3rem;
+}
+
