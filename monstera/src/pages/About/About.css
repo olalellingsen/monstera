@@ -1,0 +1,6 @@
+.about {
+    border-top: solid 1px var(--bgColor);
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #7104d9,#fa00c7, #121212);
+}    

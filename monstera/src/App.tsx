@@ -1,16 +1,17 @@
 import React from 'react';
-import SpotifyPlayer from './components/SpotifyPlayer'
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
+import Home from './pages/Home/Home';
+import About from './pages/About/About';
+import Header from './components/Header/Header';
 
 const App: React.FC = () => {
   return (
-    <div>
-        <div className="albumCover">
-          <a href="https://orcd.co/album-monstera"><img src="cover.png" alt="Album cover" /></a>
-      </div>
-      <SpotifyPlayer albumName="monstera" />
+    <>
+      <Header/>
+      <Home/>
+      <About/>
       <Footer/>
-    </div>
+    </>
   );
 };
 

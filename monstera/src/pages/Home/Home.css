@@ -1,0 +1,23 @@
+.home {
+  border-top: 1px solid #ff9ec1; 
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #ff9ec1, var(--primaryColor), var(--bgColor));
+}
+
+
+.cover {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+    -webkit-transition: 0.4s;
+}
+  
+.cover:hover {
+  scale: 1.02;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
