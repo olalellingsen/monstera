@@ -4,6 +4,17 @@
   background-image: linear-gradient(to bottom, #ff9ec1, var(--primaryColor), var(--bgColor));
 }
 
+.icons {
+  position: absolute;
+  right: 4rem;
+  padding: 1rem;
+}
+
+.icons img:hover {
+  scale: 1.1;
+  transition: 0.2s;
+  cursor: pointer;
+}
 
 .cover {
     width: 600px;
