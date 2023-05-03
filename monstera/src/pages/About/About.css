@@ -15,7 +15,7 @@
 
 .about-container img,
 .listen-container img {
-    padding-right: 4rem;
+    margin-right: 4rem;
 }
 
 .bio {
@@ -32,3 +32,69 @@ iframe {
     width: 100%;
 }
 
+
+/*  Styles for screens smaller than 960px */ 
+@media (max-width: 960px) {
+
+    .about {
+        height: 150vh;
+    }
+
+    .about-container,
+    .listen-container {
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: 70vh;
+}
+
+    .about-container img,
+    .listen-container img,
+    .bio,
+    .spotifyPlayer {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 4rem;
+}
+
+iframe {
+    height: 400px;
+}
+
+
+}
+
+/* Styles for screens smaller than 560px */
+@media (max-width: 560px) {
+
+.about {
+    height: 110vh;
+}
+
+.about-container,
+.listen-container {
+    display: block;
+    
+}
+
+.about p {
+    font-size: small;
+}
+
+.about-container,
+.listen-container {
+    height: 60vh;
+}
+
+.bio {
+    height: 25vh;
+}
+
+
+iframe {
+    height: 200px;
+}
+  
+
+}

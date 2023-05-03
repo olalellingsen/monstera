@@ -39,3 +39,39 @@ p {
   font-size: x-large;
   font-family: 'Courier New', Courier, monospace;
 }
+
+
+/* Styles for screens smaller than 960px */
+@media (max-width: 960px) {
+
+  .cover {
+    width: 400px;
+    height: 400px;
+  }
+
+  .home {
+    height: 70vh;
+  }
+}
+
+/* Styles for screens smaller than 560px */
+@media (max-width: 560px) {
+
+  .home {
+    height: 90vh;
+    padding-top: 10vh;
+  }
+
+  .cover {
+    width: 300px;
+    height: 300px;
+    
+  }
+  .home p {
+    font-size: medium;
+  }
+
+}
+
+
+

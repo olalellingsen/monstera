@@ -21,3 +21,14 @@
 .contact-info p {
     font-size:large
 }
+
+/* Styles for screens smaller than 560px */
+@media (max-width: 560px) {
+
+    .footer {
+    display: none;
+    }
+
+    /* TODO: legge inn footer til mobil */
+  
+  }
