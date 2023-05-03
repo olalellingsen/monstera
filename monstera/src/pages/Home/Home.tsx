@@ -9,7 +9,7 @@ const Home: React.FC = () => {
           <img src="insta-icon.png" alt="" height={40}/>
         </a>
       </div> */}
-      <p>our debut album "monstera" is out now!</p>
+      <p>debut album "monstera" is out now!</p>
        <a className='cover' href="https://orcd.co/album-monstera">
         <img src="cover-min.png" alt="Album cover" />
       </a>
