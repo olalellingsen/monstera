@@ -1,30 +1,34 @@
 .about {
     border-top: solid 1px var(--bgColor);
     height: 130vh;
-    background-image: linear-gradient(to bottom, #121212, #7104d9);
-
-    display: flex;
+    background-image: linear-gradient(to bottom, #121212, #7104d9, aliceblue);
 }    
 
-.left-container img, 
-.right-container img,
-.bio {
-    height: 35rem;
+.about-container,
+.listen-container {
+    display: flex;
+    height: 60vh;
+    padding: 4rem;
+    padding-top: 0;
 }
 
-.right-container, .left-container{
-    padding: 0 5rem 0 0;
-}
 
+.about-container img,
+.listen-container img {
+    padding-right: 4rem;
+}
 
 .bio {
     color: aliceblue;
     width: 90%;
 }
 
-
 .spotifyPlayer {
+    width: 90%;
+}
+
+iframe {
+    height: 60vh;
     width: 100%;
-    margin: 3rem;
 }
 

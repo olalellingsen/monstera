@@ -10,9 +10,8 @@
     height: 600px;
     display: flex;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5rem;
+    margin: auto;
+    margin-top: 2rem;
     -webkit-transition: 0.4s;
 }
   
