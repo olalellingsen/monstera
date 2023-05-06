@@ -91,10 +91,31 @@ iframe {
     height: 25vh;
 }
 
+.about-container img,
+.listen-container img {
+    width: 100%;
+}
 
 iframe {
     height: 200px;
 }
   
+}
 
+/* height for mobile devices */
+
+@media (max-height: 1100px) {
+    .listen-container {
+        margin-top: 4rem;
+    }
+}
+@media (max-height: 760px) {
+    .listen-container {
+        margin-top: 8rem;
+    }
+}
+@media (max-height: 700px) {
+    .listen-container {
+        margin-top: 10rem;
+    }
 }
