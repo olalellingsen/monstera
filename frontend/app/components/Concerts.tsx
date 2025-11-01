@@ -36,7 +36,7 @@ export default async function Concerts() {
             )}
             <div className="p-4">
               <h3>{concert.title}</h3>
-              <p>{new Date(concert.date).toLocaleDateString()}</p>
+              <p>{new Date(concert.date).toLocaleDateString("no-NO")}</p>
               <p>{concert.location}</p>
               {concert.ticketsLink && (
                 <Link

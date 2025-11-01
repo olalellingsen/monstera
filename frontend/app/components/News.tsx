@@ -34,7 +34,7 @@ export default async function News() {
             )}
             <div className="p-4">
               <p className="text-foreground/50">
-                {new Date(item.publishedAt).toLocaleDateString()}
+                {new Date(item.publishedAt).toLocaleDateString("no-NO")}
               </p>
               <h3>{item.title}</h3>
               <PortableText

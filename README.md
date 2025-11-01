@@ -1,3 +1,3 @@
 # Webpage for MONSTERA
 
-### Build using nextjs and sanity
+Built with Nextjs and Sanity

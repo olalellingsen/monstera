@@ -6,6 +6,7 @@ import Concerts from "./components/Concerts";
 import Link from "next/link";
 import Gallery from "./components/Gallery";
 import Videos from "./components/Videos";
+import Popup from "./components/Popup";
 
 const HEADER_QUERY = defineQuery(`
   *[_type == "header"][0]{
@@ -19,15 +20,13 @@ export default async function Home() {
 
   return (
     <>
+      <nav className="absolute top-0 right-0 p-4 sm:px-8">
+        <Link href="/music">
+          <h3>MUSIC</h3>
+        </Link>
+      </nav>
       <header>
-        <nav className="absolute bottom-0 w-full">
-          <div className="flex justify-between w-full text-white p-8">
-            <h1>Monstera</h1>
-            <ul className="flex space-x-4">
-              <Link href="/"></Link>
-            </ul>
-          </div>
-        </nav>
+        <h1 className="absolute bottom-4 left-4">{header.title}</h1>
         {header.homeImage && (
           <Image
             src={urlForImage(header.homeImage.image).url()}
@@ -37,6 +36,8 @@ export default async function Home() {
             className="object-cover h-screen w-full"
           />
         )}
+
+        <Popup />
       </header>
 
       <main className="p-2 space-y-10 py-8 md:space-y-20 mx-auto max-w-4xl">

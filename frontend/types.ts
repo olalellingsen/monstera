@@ -41,3 +41,16 @@ export type GalleryType = {
     alt?: string;
   }[];
 };
+
+export type Release = {
+  _id: string;
+  title: string;
+  coverArt: {
+    _type: "image";
+    asset: {
+      _ref: string;
+      _type: "reference";
+    };
+  };
+  releaseDate: string;
+};
